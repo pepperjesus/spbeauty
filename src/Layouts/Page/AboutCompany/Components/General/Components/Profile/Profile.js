@@ -14,8 +14,8 @@ function Profile() {
             <Avatar/>
             <div className='ms-4 d-inline-flex flex-column justify-content-center'>
                 <ProfileName className='title mb-2'>SPBEAUTY</ProfileName>
-                <Description className="text-lg mb-1">Салон красоты</Description>
-                <Description className='text-lg'>Санкт-Петербург, Невский пр-т. 28</Description>
+                <Description className="text-md mb-1">Салон красоты</Description>
+                <Description className='text-md'>Санкт-Петербург, Невский пр-т. 28</Description>
             </div>                  
         </div>
     );

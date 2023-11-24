@@ -21,6 +21,7 @@ const Input = styled.input`
         opacity: 80%;
     }
     &:focus {
+        color: #0F172A;
         background: #F8FAFC;
     }
 `;

@@ -13,7 +13,7 @@ const activeTab = 'about-company';
 
 function SideMenuContents() {
     return (
-        <div className='d-flex flex-column gap-2'>
+        <div className='d-flex flex-column gap-2 text-md'>
             <SideMenuGroup 
                 icon={<ProfileIcon/>} 
                 groupName='Личный профиль'

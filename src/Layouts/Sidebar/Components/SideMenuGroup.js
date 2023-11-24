@@ -2,7 +2,6 @@ import SideMenuLink from "./SideMenuLink";
 import styled from "styled-components";
 
 
-
 function SideMenuGroup({icon, groupName, groupId, tabs, active}) {
     return (
         <div>

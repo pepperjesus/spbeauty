@@ -6,7 +6,7 @@ function SecondaryButton(props) {
         border: 1px solid #64748B;
         width: 217px;
         border-radius: 24px;
-        color: #152842;
+        color: #64748B;
         background-color: #FFFFFF;
         &:hover {
             opacity: 80%;

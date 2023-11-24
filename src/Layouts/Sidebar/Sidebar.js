@@ -8,6 +8,7 @@ const Container = styled.div`
     color: #64748B;
     height: 100vh;
     border-right: solid #ECEEF1 1px;
+    width: 237px;
 `;
 
 const ButtonContainer = styled.div`
@@ -23,7 +24,7 @@ const SideMenuContainer = styled.div`
 function Sidebar() {
     return (
         <Container> {/* Цветной фон */}
-            <ButtonContainer className='m-3 d-flex'> {/* Кнопка слева сверху */}
+            <ButtonContainer className='m-3 d-flex text-md'> {/* Кнопка слева сверху */}
                 <IconAndTextButton text='На главную' icon={<ArrowBackIcon/>}/>
             </ButtonContainer>
             <SideMenuContainer className='px-1'>
